@@ -18,7 +18,7 @@ public class TypeConversion {
         System.out.println("Explicit (double to int): " + i);
 
 
-        sc.nextLine(); // clear buffer
+        sc.nextLine(); 
         System.out.print("Enter a number as string: ");
         String strNum = sc.nextLine();
         int parsed = Integer.parseInt(strNum);
